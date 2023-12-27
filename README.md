@@ -1,1 +1,1 @@
-Manipulated historical data of healthcare stocks into a transformed csv file and created data visualizations on Tableau Public
+ Extracted historical stock data on 5 different companies in the healthcare sector. Used pandas to manipulate data and generate new columns that include moving average, percent change in price, and percent change in volume. Created an interactive dashboard in Tableau that featured each stock's volume, price percent change, moving average, and percent changes in price and volume.
