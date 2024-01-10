@@ -1,7 +1,8 @@
-<img srs="healthcare.jpg" width="300" height="350">
+<img srs="healthcare.jpg">
 
 <header>
    <h1>Healthcare Stock Market Analysis</h1>
+</header>
 
 ## Overview
 
