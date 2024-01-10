@@ -35,7 +35,7 @@
 </section>
 
 <section id="tableau-dashboard">
-    <h2>Tableau Interactive Dashboard</h2>
+    <h2><a href="https://public.tableau.com/app/profile/nate.talampas/viz/HealthStockMarket/Dashboard1">Tableau Interactive Dashboard</a></h2>
     <ol>
         <li>Dashboard Creation:
             <ul>
