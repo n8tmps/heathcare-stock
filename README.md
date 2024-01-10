@@ -1,4 +1,4 @@
-<img srs="healthcare.jpg">
+<img src="healthcare.jpg">
 <!DOCTYPE html>
 <html lang="en">
 <body>
