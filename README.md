@@ -1,11 +1,4 @@
 <!DOCTYPE html>
-<img srs="healthcare.jpg">
-
-<header>
-   <h1>Healthcare Stock Market Analysis</h1>
-</header>
-
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -53,41 +46,4 @@
                 <li>Stock Volume: Visual representation of each company's stock volume over the selected period.</li>
                 <li>Price Percent Change: Highlighting the percentage change in stock prices.</li>
                 <li>Moving Averages: Displaying moving averages to smoothen stock price trends.</li>
-                <li>Percent Changes in Price and Volume: Comparative analysis of the percent changes in stock prices and volumes.</li>
-            </ul>
-        </li>
-        <li>User Interaction:
-            <ul>
-                <li>Utilizes Tableau's interactive features, allowing users to explore and filter data based on their preferences.</li>
-            </ul>
-        </li>
-    </ol>
-</section>
-
-<section id="project-insights">
-    <h2>Project Insights</h2>
-    <ul>
-        <li>Feature Engineering:
-            <ul>
-                <li>Pandas is leveraged for efficient data manipulation, allowing for the creation of meaningful derived metrics.</li>
-            </ul>
-        </li>
-        <li>Visual Representation:
-            <ul>
-                <li>The Tableau dashboard provides a visual and interactive representation of stock data, making it accessible for analysis.</li>
-            </ul>
-        </li>
-        <li>Key Metrics Highlighted:
-            <ul>
-                <li>Moving averages, percent changes in price, and volume provide key insights into stock trends and volatility.</li>
-            </ul>
-        </li>
-    </ul>
-</section>
-
-<section id="usage">
-    <h2>Usage</h2>
-    <ul>
-        <li>Pandas Code:
-            <ul>
-                <li>The Python code for data manipul
+         
