@@ -16,7 +16,7 @@
     <ol>
         <li>Data Sources:
             <ul>
-                <li>Historical stock data for five healthcare companies is extracted.</li>
+                <li>Historical stock data for five healthcare companies from Yahoo Finance</li>
             </ul>
         </li>
         <li>Data Manipulation with Pandas:
