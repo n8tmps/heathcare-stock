@@ -4,7 +4,7 @@
    <h1>Healthcare Stock Market Analysis</h1>
 </header>
 
-## Overview
+**Overview**
 
 This project involves the extraction and analysis of historical stock data from five different companies in the healthcare sector: `JNJ`, `PFE`, `UNH`, `RHHBY`, `AZN`. The primary goal is to gain insights into the stock performance of these companies over time. The analysis is conducted using Python's Pandas library for data manipulation and visualization, and an interactive dashboard is created using Tableau.
 
