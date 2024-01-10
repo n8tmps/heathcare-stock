@@ -1,3 +1,5 @@
+<img srs="healthcare.jpg">
+
 # Healthcare Stock Market Analysis
 
 ## Overview
