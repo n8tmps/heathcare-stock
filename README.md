@@ -36,6 +36,7 @@
 
 <section id="tableau-dashboard">
     <h2><a href="https://public.tableau.com/app/profile/nate.talampas/viz/HealthStockMarket/Dashboard1">Tableau Interactive Dashboard</a></h2>
+   <img src="healthstock.jpg" />
     <ol>
         <li>Dashboard Creation:
             <ul>
