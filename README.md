@@ -44,6 +44,10 @@ $Y_3 = -0.0430X_1 + 0.7417X_2 -0.5976X_3 -0.2605X_4 + 0.1513X_5$<br>
 $Y_4 = 0.8485X_1 -0.2943X_2 -0.4021X_3 -0.1274X_4 -0.1241X_5$<br>
 $Y_5 = -0.0064X_1 -0.2499X_2 + 0.1476X_3 -0.6316X_4 + 0.7189X_5$
 
+The proportion of the total sample variance explained by the first three principal components is computed as:
+
+$(2.8737 + 0.7082 + 0.5809) / 5 = 0.832556832$ or $83.26%$
+
 
 <section id="data-manipulation">
     <h2>Data Extraction and Manipulation</h2>
