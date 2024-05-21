@@ -19,7 +19,7 @@
 
 <section id="methodology">
 <h2>Methodology</h2>
-<h3>Data Retrieval and Preprocessing</h3>
+<h3>Stock Price and Moving Averages</h3>
 <p>Data for each ticker symbol includes daily closing prices, which are aggregated over the past 5 years. Moving averages were calculated to smooth out price fluctuations and identify trends. Specifically, the 50-day and 200-day moving averages are computed for each stock. The plots reveal the historical stock prices for each ticker symbol, alongside their respective 50-day and 200-day moving averages. Trends and patterns in stock prcie movements are identified, aiding in the interpretation of long-term performance.</p>
 
 <h3>Weekly Returns Calculation</h3>
