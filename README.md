@@ -24,8 +24,8 @@
 
 <h3>Weekly Returns</h3>
 <p>Weekly returns are calculated to assess the performance of each stock over shorter time intervals. The weekly return is computed as the percent change in stock price from one week to the next. Weekly return plots depict the volatility and performance of each stock on a weekly basis. Fluctuations in weekly returns provide insights into the stock's sensitivity to market conditions and external factors.</p>
-
 <img src="MA_WeeklyReturns.jpg">
+</section>
 
 <section id="data-manipulation">
     <h2>Data Extraction and Manipulation</h2>
