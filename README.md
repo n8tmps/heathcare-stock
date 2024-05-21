@@ -48,6 +48,9 @@ The proportion of the total sample variance explained by the first three princip
 
 $(2.8737 + 0.7082 + 0.5809) / 5 = 0.83256$
 
+- The first principal component is a measure of the rates of return for **JNJ**, **PFE**, **UNH**, **RHHBY**, and **AZN**.
+- The second principal component is a measure of the rates of return for **UNH**, **RHHBY**, **AZN**, and to some extent, **JNJ**, and **PFE**.
+- The third principal component is a measure of the rates of return ffor **JNJ**, **PFE**, **UNH**, and **RHHBY**.
 
 <section id="data-manipulation">
     <h2>Data Extraction and Manipulation</h2>
