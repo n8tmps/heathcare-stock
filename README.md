@@ -37,7 +37,10 @@ $\vec{\bar{x'}} = [0.000667, -0.000614, 0.003747, 0.000287, 0.003360]$
 <img src="corr.jpg" />
 
 The principal components are:
+
 $Y_1 = 0.4838X_1 + 0.4326X_2 + 0.4253X_3 + 0.4390X_4 + 0.4530X_5$
+$Y_2 = 0.2099X_1 + 0.3372X_2 + 0.5276X_3 -0.5694X_4 -0.4895X_5$
+
 
 <section id="data-manipulation">
     <h2>Data Extraction and Manipulation</h2>
