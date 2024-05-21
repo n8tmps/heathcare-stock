@@ -30,7 +30,7 @@
 ### Principal Component Analysis
 The weekly rates of return for Johnson & Johnson, Pfizer, UnitedHealth Group, Roche Holding AG, and AstraZeneca were determined for the period May 2019 through May 2024. The observations appear to be independently distributed, but the rates of return across stocks are correlated, because stocks tend to move together in response to general economic condtions.
 
-Let $x_1, x_2, ..., x_5$ denote observed weekly rates of return. The sample mean vector and the sample correlation matrix are shown as:
+Let $x_1, x_2, ..., x_5$ denote observed weekly rates of return. The sample mean vector and the sample correlation matrix are:
 
 $\vec{\bar{x'}} = [0.000667, -0.000614, 0.003747, 0.000287, 0.003360]$
 
