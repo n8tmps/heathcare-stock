@@ -34,6 +34,8 @@ Let $x_1, x_2, ..., x_5$ denote observed weekly rates of return. The sample mean
 
 $\vec{\bar{x'}} = [0.000667, -0.000614, 0.003747, 0.000287, 0.003360]$
 
+<img src="corr.jpg" />
+
 <section id="data-manipulation">
     <h2>Data Extraction and Manipulation</h2>
     <ol>
