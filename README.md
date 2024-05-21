@@ -20,6 +20,7 @@
 <section id="methodology">
 <h2>Methodology</h2>
 <h3>Data Retrieval and Preprocessing</h3>
+<p> Historical stock data was obtained using the Yahoo Finance API ('yfinance'). Data for each ticker symbol includes daily closing prices, which are aggregated over the past 5 years. Moving averages were calculated to smooth out price fluctuations and identify trends. Specifically, the 50-day and 200-day moving averages are computed for each stock.</p>
 
 <img src="MA_WeeklyReturns.jpg">
 
