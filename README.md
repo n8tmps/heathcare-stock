@@ -17,6 +17,8 @@
       <p> <b>AZN</b> (AstraZeneca): A global biopharmaceutical company focused on the discovery, development, and commercialization of prescription medicines. They are known for their contributions in areas such as cardiovascular, respiratory, and oncology drugs, as well as vaccines.</p>
 </section>
 
+<img src="MA_WeeklyReturns.jpg">
+
 <section id="data-manipulation">
     <h2>Data Extraction and Manipulation</h2>
     <ol>
