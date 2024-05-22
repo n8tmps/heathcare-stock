@@ -67,6 +67,7 @@ $(2.8737 + 0.7082 + 0.5809) / 5 = 0.83256$
 
 <p>
    An ARIMA(2, 1, 2) model was chosen to model the stock price of UNH based on the characteristics of the time series data. This model incorporates two lagged observations in the autoregressive part (p=2), applies first-order differencing to achieve stationarity (d=1), and includes two lagged forecast errors in the moving average part (q=2)
+   <img src="arima.jpg" />
 </p>
 
    <img src="timeseries.jpg" />
