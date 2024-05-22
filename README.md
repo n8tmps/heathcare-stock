@@ -56,6 +56,12 @@ $(2.8737 + 0.7082 + 0.5809) / 5 = 0.83256$
 <section id="forecast">
    <h2>ARIMA Time Series Forecasting</h2>
    <p>An ARIMA model, which stands for AutoRegressive Integrated Moving Average, is a popular and powerful statistical method used for time series forecasting. The ARIMA model is characterized by three parameters: $p, d, q$, which are used to capture different aspects of the time series data. Here’s what each parameter represents:</p>
+
+   <img src="ts.jpg" />
+
+   <img src="ts_forecast.jpg" />
+
+   
 </section>
 
 <section id="tableau-dashboard">
