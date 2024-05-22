@@ -27,7 +27,15 @@
 <img src="MA_WeeklyReturns.jpg">
 </section>
 
-### Principal Component Analysis
+<section id="pca">
+   <h2>Principal Component Analysis</h2>
+   <p>
+      
+Principal Component Analysis (PCA) is a statistical technique used to reduce the dimensionality of a dataset while preserving as much variance as possible. It transforms high-dimensional data into a smaller set of uncorrelated variables called principal components, which capture the most significant patterns in the data. The process involves standardizing the data, computing the covariance matrix, and deriving eigenvalues and eigenvectors. The principal components are sorted by the variance they explain, allowing the data to be projected onto these components for analysis. 
+   </p>
+</section>
+
+### Principal Component Analysis (PCA)
 The weekly rates of return for Johnson & Johnson, Pfizer, UnitedHealth Group, Roche Holding AG, and AstraZeneca were determined for the period May 2019 through May 2024. The observations appear to be independently distributed, but the rates of return across stocks are correlated, because stocks tend to move together in response to general economic condtions.
 
 Let $x_1, x_2, ..., x_5$ denote observed weekly rates of return. The sample mean vector and the sample correlation matrix are:
