@@ -61,6 +61,8 @@ $(2.8737 + 0.7082 + 0.5809) / 5 = 0.83256$
 
    <img src="ts_forecast.jpg" />
 
+   <img src="timeseries.jpg" />
+
    
 </section>
 
