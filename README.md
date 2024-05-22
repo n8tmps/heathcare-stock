@@ -55,6 +55,11 @@ $(2.8737 + 0.7082 + 0.5809) / 5 = 0.83256$
 <section id="methodology">
    <h2>Data Collection and Preprocessing</h2>
    <li><b>Data Source:</b> Historical stock data was retrieved using the Yahoo Finance API ('yfinance')</li>
+   <li><b>Data Processing:</b> Python's Pandas library was utilized for data manipulation</li>
+
+   <h2>Visualization</h2>
+   <li><b>Matplotlib and Seaborn</b> Matplotlib and Seaborn libraries were employed for visualization.</li>
+
 </section>
 
 <section id="tableau-dashboard">
