@@ -55,15 +55,14 @@ $(2.8737 + 0.7082 + 0.5809) / 5 = 0.83256$
 <section id="data-manipulation">
     <h2>Data Extraction and Manipulation</h2>
     <ol>
-        <li>Data Sources:
+        <li>Data Source:
             <ul>
-                <li>Historical stock data for five healthcare companies from Yahoo Finance</li>
+                <li>Historical stock data was retrieved using the Yahoo Finance API ('yfinance')</li>
             </ul>
         </li>
-        <li>Data Manipulation with Pandas:
+        <li>Data Processing:
             <ul>
-                <li>Pandas is used to manipulate the data efficiently.</li>
-                <li>New columns are generated, including moving averages, percent change in price, and percent change in volume.</li>
+                <li>Python's Pandas library was utilized for data manipulation, which included moving averages, percent change in price, and percent change in volume.</li>
             </ul>
         </li>
     </ol>
