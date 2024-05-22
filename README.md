@@ -58,7 +58,8 @@ $(2.8737 + 0.7082 + 0.5809) / 5 = 0.83256$
    <p>An ARIMA model, which stands for AutoRegressive Integrated Moving Average, is a popular and powerful statistical method used for time series forecasting. The ARIMA model is characterized by three parameters: $p, d, q$, which are used to capture different aspects of the time series data. Here’s what each parameter represents:</p>
 
 <p>
-   <b>AutoRegressive (AR) part</b>: This component involves regressing the variable on its own lagged (prior) values.
+   <b>AutoRegressive (AR) part</b>: This component involves regressing the variable on its own lagged (prior) values. <b>p</b> is the number of lag observations included in the model (the number of lagged terms, or the autoregressive part).
+   <b>Integrated (I) part:</b> This component involves differencing the data to make it stationary. Stationary data has a constant mean and variance over time, which is a requirement for many time series models. Differencing is the process of subtracting the previous observation from the current observation. <b>d</b> is the number of times that the raw observations are differenced (the degree of differencing).
 </p>
 
    <img src="timeseries.jpg" />
