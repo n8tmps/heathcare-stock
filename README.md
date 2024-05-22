@@ -51,8 +51,10 @@ $(2.8737 + 0.7082 + 0.5809) / 5 = 0.83256$
 - The first principal component is a measure of the rates of return for **JNJ**, **PFE**, **UNH**, **RHHBY**, and **AZN**.
 - The second principal component is a measure of the rates of return for **UNH**, **RHHBY**, **AZN**, and to some extent, **JNJ**, and **PFE**.
 - The third principal component is a measure of the rates of return for **PFE**, **UNH**, and to some extent, **RHHBY**.
+</section>
 
-
+<section id="forecast">
+   <h2>ARIMA Time Series Forecasting</h2>
 </section>
 
 <section id="tableau-dashboard">
