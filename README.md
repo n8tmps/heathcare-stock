@@ -52,20 +52,9 @@ $(2.8737 + 0.7082 + 0.5809) / 5 = 0.83256$
 - The second principal component is a measure of the rates of return for **UNH**, **RHHBY**, **AZN**, and to some extent, **JNJ**, and **PFE**.
 - The third principal component is a measure of the rates of return for **PFE**, **UNH**, and to some extent, **RHHBY**.
 
-<section id="data-manipulation">
-    <h2>Data Extraction and Manipulation</h2>
-    <ol>
-        <li>Data Source:
-            <ul>
-                <li>Historical stock data was retrieved using the Yahoo Finance API ('yfinance')</li>
-            </ul>
-        </li>
-        <li>Data Processing:
-            <ul>
-                <li>Python's Pandas library was utilized for data manipulation, which included moving averages, percent change in price, and percent change in volume.</li>
-            </ul>
-        </li>
-    </ol>
+<section id="methodology">
+   <h2>Data Collection and Preprocessing</h2>
+   <li><b>Data Source:</b> Historical stock data was retrieved using the Yahoo Finance API ('yfinance')</li>
 </section>
 
 <section id="tableau-dashboard">
