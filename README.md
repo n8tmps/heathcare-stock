@@ -58,7 +58,7 @@ $(2.8737 + 0.7082 + 0.5809) / 5 = 0.83256$
    <li><b>Data Processing:</b> Python's Pandas library was utilized for data manipulation</li>
 
    <h2>Visualization</h2>
-   <li><b>Matplotlib and Seaborn</b> Matplotlib and Seaborn libraries were employed for visualization.</li>
+   <li><b>Matplotlib and Seaborn:</b> Matplotlib and Seaborn libraries were employed for visualization.</li>
 
 </section>
 
