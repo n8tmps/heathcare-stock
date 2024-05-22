@@ -72,6 +72,8 @@ $(2.8737 + 0.7082 + 0.5809) / 5 = 0.83256$
    The fitted ARIMA(2, 1, 2) model for the stock price of UNH is given by:
 
    $Y_t - Y_{t-1} = -1.7235 (Y_{t-1} - Y_{t-2}) - 0.9058 (Y_{t-2} - Y_{t-3}) + e_t + 1.6532 e_{t-1} + 0.8442 e_{t-2}$
+
+   where $e_t$ is the error term with variance $\sigma^2 = 43.0813$.
 </p>
 
    <img src="timeseries.jpg" />
