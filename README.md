@@ -59,7 +59,7 @@ $(2.8737 + 0.7082 + 0.5809) / 5 = 0.83256$
 
    <img src="timeseries.jpg" />
 
-   <img src="ts_forecast.jpg" />
+   <img src="ts_fc.jpg" />
 
    Date|Forecasted Close Price|Lower CI (95%)|Upper CI (95%)
    ----|----------------------|--------------|--------------
