@@ -66,11 +66,11 @@ $(2.8737 + 0.7082 + 0.5809) / 5 = 0.83256$
    <p>An ARIMA model, which stands for AutoRegressive Integrated Moving Average, is a popular and powerful statistical method used for time series forecasting. The ARIMA model is characterized by three parameters: $p, d, q$, which are used to capture different aspects of the time series data. Here’s what each parameter represents:</p>
 
 <p>
-   <b>AutoRegressive (AR) part</b>: This component involves regressing the variable on its own lagged (prior) values. <b>p</b> is the number of lag observations included in the model (or the number of lagged terms).
+   <b>AutoRegressive (AR) part</b>: This component involves regressing the variable on its own lagged (prior) values. $p$ is the number of lag observations included in the model (or the number of lagged terms).
    
-   <b>Integrated (I) part:</b> This component involves differencing the data to make it stationary. Stationary data has a constant mean and variance over time, which is a requirement for many time series models. Differencing is the process of subtracting the previous observation from the current observation. <b>d</b> is the number of times that the raw observations are differenced (or the degree of differencing).
+   <b>Integrated (I) part:</b> This component involves differencing the data to make it stationary. Stationary data has a constant mean and variance over time, which is a requirement for many time series models. Differencing is the process of subtracting the previous observation from the current observation. $d$ is the number of times that the raw observations are differenced (or the degree of differencing).
 
-   <b>Moving Average (MA) part:</b> This component involves modeling the error term as a linear combination of error terms occurring at various times in the past. <b>q</b> is the size of the moving average window (or the order of the moving average part).
+   <b>Moving Average (MA) part:</b> This component involves modeling the error term as a linear combination of error terms occurring at various times in the past. $q$ is the size of the moving average window (or the order of the moving average part).
 </p>
 
 <p>
