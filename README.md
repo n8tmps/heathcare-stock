@@ -61,55 +61,6 @@ $(2.8737 + 0.7082 + 0.5809) / 5 = 0.83256$
 - The third principal component is a measure of the rates of return for **PFE**, **UNH**, and to some extent, **RHHBY**.
 </section>
 
-<section id="forecast">
-   <h2>ARIMA Time Series Forecasting</h2>
-   <p>An ARIMA model, which stands for AutoRegressive Integrated Moving Average, is a popular and powerful statistical method used for time series forecasting. The ARIMA model is characterized by three parameters: $p, d, q$, which are used to capture different aspects of the time series data. Here’s what each parameter represents:</p>
-
-<p>
-   <b>AutoRegressive (AR) part</b>: This component involves regressing the variable on its own lagged (prior) values. $p$ is the number of lag observations included in the model (or the number of lagged terms).
-   
-   <b>Integrated (I) part:</b> This component involves differencing the data to make it stationary. Stationary data has a constant mean and variance over time, which is a requirement for many time series models. Differencing is the process of subtracting the previous observation from the current observation. $d$ is the number of times that the raw observations are differenced (or the degree of differencing).
-
-   <b>Moving Average (MA) part:</b> This component involves modeling the error term as a linear combination of error terms occurring at various times in the past. $q$ is the size of the moving average window (or the order of the moving average part).
-</p>
-
-<p>
-   An ARIMA(2, 1, 2) model was chosen to model the stock price of UNH based on the characteristics of the time series data. This model incorporates two lagged observations in the autoregressive part (p=2), applies first-order differencing to achieve stationarity (d=1), and includes two lagged forecast errors in the moving average part (q=2)
-   <img src="arima.jpg" />
-
-   The fitted ARIMA(2, 1, 2) model for the stock price of UNH is given by:
-
-   $Y_t - Y_{t-1} = -1.7235 (Y_{t-1} - Y_{t-2}) - 0.9058 (Y_{t-2} - Y_{t-3}) + e_t + 1.6532 e_{t-1} + 0.8442 e_{t-2}$
-
-   where $e_t$ is the error term with variance $\sigma^2 = 43.0813$.
-</p>
-
-   <img src="timeseries.jpg" />
-
-   <img src="ts_fc.jpg" />
-
-   Date|Forecasted Close Price|Lower CI (95%)|Upper CI (95%)
-   ----|----------------------|--------------|--------------
-   2024-05-22|522.877482|510.013001|535.741962
-   2024-05-23|523.287144|505.721939|540.852349
-   2024-05-24|523.190222|501.499404|544.881041
-   2024-05-25|522.986207|498.087606|547.884807
-   2024-05-26|523.425621|495.612449|551.238793
-   2024-05-27|522.853074|492.337088|553.369060
-   2024-05-28|523.441859|490.605521|556.278197
-   2024-05-29|522.945676|487.730865|558.160486
-   2024-05-30|523.267551|486.037542|560.497559
-   2024-05-31|523.162224|483.843885|562.480563
-   2024-06-01|523.052210|481.867892|564.236529
-   2024-06-02|523.337223|480.322144|566.352302
-   2024-06-03|522.945645|478.153465|567.737826
-   2024-06-04|523.362379|476.934185|569.790574
-
-   
-
-   
-</section>
-
 <section id="tableau-dashboard">
     <h2><a href="https://public.tableau.com/app/profile/nate.talampas/viz/HealthStockMarket/Dashboard1">Tableau Interactive Dashboard</a></h2>
    <img src="healthstock.jpg" />
